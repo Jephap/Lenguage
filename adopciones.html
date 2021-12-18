@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopciones</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap');
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Lato', sans-serif;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-top: 15px;
+            background-color: #b3494d;
+        }
+        
+        .logo img {
+            width: 100px;
+            height: 100px;
+        }
+        
+        nav ul {
+            display: flex;
+        }
+        
+        nav ul li {
+            padding-right: 25px;
+            list-style: none;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        nav ul li a:hover {
+            font-weight: bold;
+        }
+        
+        main h1 {
+            margin-left: 15px;
+        }
+        
+        .card {
+            display: inline-block;
+            height: 400px;
+            width: 300px;
+            background-color: white;
+            padding: 10px;
+            margin-left: 30px;
+            margin-bottom: 25px;
+            box-shadow: 15px 15px 15px rgb(0 0 0 / 20%);
+        }
+        
+        .card:hover {
+            border: 1px black solid;
+        }
+        
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .card .texto {
+            font-weight: bold;
+            margin: 5px 0 5px 0;
+        }
+        
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            border: 1px solid green;
+            border-radius: 5px;
+            padding: 10px 20px;
+            text-align: center;
+            cursor: pointer;
+            float: left;
+            width: 100%;
+        }
+        
+        .btn:hover {
+            background-color: #3e8e41;
+        }
+        
+        footer {
+            background-color: #b3494d;
+        }
+        
+        footer ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 0;
+            padding: 15px 0 15px 0;
+        }
+        
+        footer ul li {
+            list-style: none;
+        }
+        
+        footer ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 0 5px 0 5px;
+        }
+        
+        footer ul li p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="logo">
+            <img src="https://thumbs.dreamstime.com/b/adopta-m%C3%AD-icono-de-redondeo-la-cabeza-cara-del-perro-aroma-cachorro-blanco-caricatura-curada-kawaii-personaje-gracioso-beb%C3%A9-161853396.jpg" alt="">
+        </section>
+        <nav>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="adopciones.html">ADOPCIONES</a></li>
+                <li><a href="dog.html">PERROS</a></li>
+                <li><a href="gatos.html">GATOS</a></li>
+                <li><a href="registrarce.html">REGISTRATE</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Historias de familias llenas de amor</h1>
+        <figure class="card">
+            <img src="https://t2.ea.ltmcdn.com/es/images/6/0/6/la_edad_ideal_para_adoptar_un_cachorro_23606_orig.jpg" alt="">
+            <figcaption class="texto">History time</figcaption>
+            <p>lucas, llegó desde bebé al refugio. Afortunadamente no sufrió maltrato ya que lo llevaron junto con sus hermanos y lo abandonaron en las puertas del refugio.</p>
+        </figure>
+        <figure class="card">
+            <img src="https://elclubmascotas.com/sites/default/files/adopcion_2.jpg" alt="">
+            <figcaption class="texto">History time</figcaption>
+            <p>coco fue rescatado porque su dueño lo echó a la calle después de haberle mutilado la cola perjudicando así el equilibrio de sus patas traseras.</p>
+        </figure>
+        <figure class="card">
+            <img src="https://www.poblanerias.com/wp-content/archivos/2021/07/Adopcion-1021x580.jpg" alt="">
+            <figcaption class="texto">History time</figcaption>
+            <p>A Ares lo reportaron unas personas de un mercado. Era utilizado de sparring y cuando lo rescatamos estaba muy lastimado. Nunca fue agresivo, pero fue rehabilitado de sus heridas y sobre todo de su alma.</p>
+        </figure>
+        <figure class="card">
+            <img src="https://lh3.googleusercontent.com/proxy/cCEMjC5TDPB9Jli7QkeRoQKCVN51equwZgu7S9r9iMh2ZzX_XWcEpzSj3S2kYc7yU1zB8VLfYu-5YxGOZ8CD0-ID9Xo1YAy3fcRBMvx1aZ4zSGLVtlA7UfBYffTHTMGPWUQrn03_ZPPkLCHmVP4a4Sl2LoIlu_DEsHhcBRe4y8qy-DxKm6F3FFdycjI" alt="">
+            <figcaption class="texto">History time</figcaption>
+            <p>A Max se le encontró en las calles vagando, su rescate costó trabajo porque tiene mucha fuerza...</p>
+        </figure>
+        <figure class="card">
+            <img src="https://ecoinventos.com/wp-content/uploads/2018/05/Adopcion-perro.jpg" alt="">
+            <figcaption class="texto">History time</figcaption>
+            <p>ULISES fue abandonado en un parque con un fuerte síndrome vestibular por E. cuniculi, por el que no podía ni siquiera caminar. Únicamente había intentado refugiarse en unas zarzas, en las que se quedó enredado.</p>
+        </figure>
+        <figure class="card">
+            <img src="https://www.purina-latam.com/sites/g/files/auxxlc391/files/styles/social_share_large/public/purina-gatos%20en%20adopcion-que-es-mejor-gatitos-bebes-o-gatos-adultos.jpg?itok=wH3_rbUk" alt="">
+            <figcaption class="texto">History time</figcaption>
+            <p>Pillín estaba solito, con muchísima hambre y frío buscando refugio a su corta edad dentro del motor de un coche en la calle. Lo encontraron temblando de frío, muy asustado y maullando, quizás como única forma de pedir auxilio en ese momento.</p>
+        </figure>
+        <figure class="card">
+            <img src="https://t1.ea.ltmcdn.com/es/images/3/7/7/10_razones_para_adoptar_un_gato_21773_600_square.jpg" alt="">
+            <figcaption class="texto">History time</figcaption>
+            <p>Benito fue encontrado en Callao-Lima; escondido debajo de un auto, asustado y lastimado por lo que aún tiene cicatrices.</p>
+        </figure>
+
+    </main>
+    <footer>
+        <ul>
+            <li>Contantanos:
+                <p>+15 98721654</p>
+            </li>
+            <li>Siguenos:
+                <a href="#">
+                    <img width="40" src="https://cdn-icons.flaticon.com/png/512/3670/premium/3670051.png?token=exp=1639784671~hmac=8743a06ffa044eb1310edd5002fd0410" alt="">
+                </a>
+                <a href="#">
+                    <img width="40" src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="">
+                </a>
+                <a href="#">
+                    <img width="40" src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="">Trabaja con Nosotros</a>
+            </li>
+
+        </ul>
+    </footer>
+
+</body>
+<script>
+</script>
+
+</html>

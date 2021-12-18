@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perros</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap');
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Lato', sans-serif;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-top: 15px;
+            background-color: #b3494d;
+        }
+        
+        .logo img {
+            width: 100px;
+            height: 100px;
+        }
+        
+        nav ul {
+            display: flex;
+        }
+        
+        nav ul li {
+            padding-right: 25px;
+            list-style: none;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        nav ul li a:hover {
+            font-weight: bold;
+        }
+        
+        main h1 {
+            margin-left: 15px;
+        }
+        
+        .card {
+            display: inline-block;
+            height: 300px;
+            width: 300px;
+            background-color: white;
+            padding: 10px;
+            margin-left: 30px;
+            margin-bottom: 25px;
+            box-shadow: 15px 15px 15px rgb(0 0 0 / 20%);
+        }
+        
+        .card:hover {
+            border: 1px black solid;
+        }
+        
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .card .texto {
+            font-weight: bold;
+            margin: 5px 0 5px 0;
+        }
+        
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            border: 1px solid green;
+            border-radius: 5px;
+            padding: 10px 20px;
+            text-align: center;
+            cursor: pointer;
+            float: left;
+            width: 100%;
+        }
+        
+        .btn:hover {
+            background-color: #3e8e41;
+        }
+        
+        footer {
+            background-color: #b3494d;
+        }
+        
+        footer ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 0;
+            padding: 15px 0 15px 0;
+        }
+        
+        footer ul li {
+            list-style: none;
+        }
+        
+        footer ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 0 5px 0 5px;
+        }
+        
+        footer ul li p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="logo">
+            <img src="https://thumbs.dreamstime.com/b/adopta-m%C3%AD-icono-de-redondeo-la-cabeza-cara-del-perro-aroma-cachorro-blanco-caricatura-curada-kawaii-personaje-gracioso-beb%C3%A9-161853396.jpg" alt="">
+        </section>
+        <nav>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="adopciones.html">ADOPCIONES</a></li>
+                <li><a href="dog.html">PERROS</a></li>
+                <li><a href="gatos.html">GATOS</a></li>
+                <li><a href="registrarce.html">REGISTRATE</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Adopta una vida</h1>
+        <figure class="card">
+            <img src="https://elrefugio.org/contenido/animales/thumbs/El-Refugio-Igor.jpg" alt="">
+            <figcaption class="texto">Igor</figcaption>
+            <button value="submit" class="btn">ADOPTAR</button>
+        </figure>
+        <figure class="card">
+            <img src="https://elrefugio.org/contenido/animales/thumbs/El-Refugio-Thor.jpg" alt="">
+            <figcaption class="texto">Thor</figcaption>
+            <button value="submit" class="btn">ADOPTAR</button>
+        </figure>
+        <figure class="card">
+            <img src="https://elrefugio.org/contenido/animales/thumbs/El-Refugio-Sheyla.jpg" alt="">
+            <figcaption class="texto">Sheyla</figcaption>
+            <button value="submit" class="btn">ADOPTAR</button>
+        </figure>
+        <figure class="card">
+            <img src="https://elrefugio.org/contenido/animales/thumbs/El-Refugio-Odiseaweb.jpg" alt="">
+            <figcaption class="texto">Odisea</figcaption>
+            <button value="submit" class="btn">ADOPTAR</button>
+        </figure>
+        <figure class="card">
+            <img src="https://elrefugio.org/contenido/animales/thumbs/El-Refugio-Theteweb.jpg" alt="">
+            <figcaption class="texto">Théte</figcaption>
+            <button value="submit" class="btn">ADOPTAR</button>
+        </figure>
+        <figure class="card">
+            <img src="https://images.ecestaticos.com/ixqxt63n1SyrxIPr7ukrZMyUdrs=/0x19:996x768/1200x899/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F3dc%2F841%2F9f6%2F3dc8419f64a0450f230c68d3112aab5f.jpg" alt="">
+            <figcaption class="texto">Chocolate</figcaption>
+            <button value="submit" class="btn">ADOPTAR</button>
+        </figure>
+        <figure class="card">
+            <img src="https://elrefugio.org/contenido/animales/thumbs/El-Refugio-Tatankaweb.jpg" alt="">
+            <figcaption class="texto">Tatanka</figcaption>
+            <button value="submit" class="btn">ADOPTAR</button>
+        </figure>
+
+
+    </main>
+    <footer>
+        <ul>
+            <li>Contantanos:
+                <p>+15 98721654</p>
+            </li>
+            <li>Siguenos:
+                <a href="#">
+                    <img width="40" src="https://cdn-icons.flaticon.com/png/512/3670/premium/3670051.png?token=exp=1639784671~hmac=8743a06ffa044eb1310edd5002fd0410" alt="">
+                </a>
+                <a href="#">
+                    <img width="40" src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="">
+                </a>
+                <a href="#">
+                    <img width="40" src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="">Trabaja con Nosotros</a>
+            </li>
+
+        </ul>
+    </footer>
+
+</body>
+<script>
+</script>
+
+</html>
